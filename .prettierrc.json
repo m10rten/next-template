@@ -1,0 +1,10 @@
+{
+  "endOfLine": "lf",
+  "useTabs": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "proseWrap": "preserve"
+}

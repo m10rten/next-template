@@ -1,0 +1,35 @@
+// Basic global styles using tailwindcss
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+  max-width: 100vw;
+}
+
+main {
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  @apply md:text-4xl sm:text-3xl text-2xl;
+}
+h2 {
+  @apply md:text-3xl sm:text-2xl text-xl;
+}
+h3 {
+  @apply md:text-2xl sm:text-xl text-lg;
+}
+h4 {
+  @apply md:text-xl sm:text-lg text-base;
+}
+h5 {
+  @apply md:text-lg sm:text-base text-sm;
+}
