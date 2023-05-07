@@ -1,3 +1,7 @@
+# 0.1.2
+
+- Implemented Zod for validation of env.
+
 # 0.1.1
 
 - Updated dependencies to latest versions.
