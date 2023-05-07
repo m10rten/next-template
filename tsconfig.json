@@ -112,7 +112,7 @@
   },
   "include": [
     "next-env.d.ts",
-    "process.d.ts",
+    "process.ts",
     "session.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
