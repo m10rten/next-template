@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import type { NextAuthOptions } from "next-auth";
 
-export const OPTIONS: NextAuthOptions = {
+const authOptions: NextAuthOptions = {
   providers: [
     // Add your providers here
   ],
@@ -12,7 +12,6 @@ export const OPTIONS: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 };
 
-const handler = NextAuth(OPTIONS);
+const handler = NextAuth(authOptions);
 
 export { handler as GET, handler as POST };
-export default handler;
